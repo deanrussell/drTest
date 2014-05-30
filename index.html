@@ -1,7 +1,20 @@
 <html>
 	<head>
+		<link rel="stylesheet" href="app.css" />
+		<!--<link> does not need type="text/css" (selectors and attributes)-->
 	</head>
 	<body>
 		<h1>Hello, World!</h1>
+		<p class="lead">
+			<a href="http://www.lipsum.com/" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Vestibulum ac purus et libero mollis bibendum in non mauris. Nullam mattis faucibus ante egestas tristique. Integer a ante vel nisi aliquet euismod. Sed placerat mattis arcu a sodales. Aenean mollis nulla nisi, non vehicula erat pharetra sed. Duis semper metus vitae fermentum porttitor. Vestibulum gravida dolor sapien, in dictum lacus vehicula et.
+		</p>
+		<p>
+			Etiam hendrerit <a href="http://www.hdwallpapers.in/love-desktop-wallpapers.html" target="new">eros</a> eu neque convallis aliquet. Aenean fringilla et risus eu auctor. Suspendisse nisl augue, condimentum non luctus eu, condimentum a ipsum. Duis aliquam pulvinar orci, in dignissim neque. Quisque nibh justo, commodo a ultrices in, posuere et nulla. Praesent eu nisi tortor. Cras libero ligula, <a href="http://en.wikipedia.org/wiki/Vestibule_(architecture)">vestibulum</a> in leo eu, dapibus malesuada massa. Proin nec turpis eros. Nunc ornare sed sem id hendrerit.
+		</p>
+		<nav data-list="new"></nav>
+		<section></section>
+		<!--NOTE: in <a>, target="_blank" or target="new" is an HTML5 feature that will take the user to another tab, w/o leaving your page. (e.g. "Lorem ipsum" link vs. "vestibulum" link-->
+		<!--TODO: look up diff between "new" and "_blank"-->
+		<!--nav is the ELEMENT/TAG, it is an example of semantic markup. SEMANTIC MARKUP is helpful, becuase it is easily understandable. //  data-list="new" is the ATTRIBUTE-->
 	</body>
 </html>

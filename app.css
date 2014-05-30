@@ -1,0 +1,17 @@
+/*CSS: made of SELECTORS and ATTRIBUTES/ARGUMENTS 
+SELECTORS are NOT case sensetive for Selectors like "h1"*/
+* {
+	font-family: Futura;
+}
+
+h1 {
+	color: #696969;
+}
+
+.lead {
+	font-weight: bold;
+	background: #fafafa;
+	padding: 10px;
+	border: 1px solid #696969;
+	margin-left: 25px;
+}
